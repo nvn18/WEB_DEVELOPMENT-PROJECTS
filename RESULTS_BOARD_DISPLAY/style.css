@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Pacifico&family=Unbounded:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #1d61c6, #0093ec, #00bbd1, #00da83, #a8eb12);
+}
+
+.container
+{
+    width: 500px;
+    height: 300px;
+    background-color: #D1E8E2;
+    border-radius: 25px;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+    font-size: 25px;
+}
+
+form h1{
+    background-color: #FFE400;
+    color: #116466;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 25px;
+    font-family: 'Unbounded', cursive;
+}
+
+#submit{
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    box-shadow: 5px 5px 0 0 black;
+    background-color: #00bbd1;
+    transition: all 100ms ease-in;
+}
+
+#submit:hover{
+    transform: translate(3px, 3px);
+    border-radius: 15px;
+    box-shadow: 0 0 0 0 black;
+}
+
+#submit:active{
+    transform: scaleX(1.5);
+}
+
+.inputs{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Itim', cursive;
+}
